@@ -1,0 +1,191 @@
+p, h1, a, img, ul{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #FFFDE3;
+    
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*========== HEADER ==========*/
+header{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo{
+    max-width: 150px;
+    height: 40%;
+    margin-top: 10%;
+}
+
+header > ul{
+    display: flex;
+
+}
+
+ul > a {
+    display: block;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    background-color: #dd6c6c;
+    margin-bottom: 10%;
+}
+
+/*========== APRESENTAÇÂO ==========*/
+
+div.apresentacao{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#textoApresentacao{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Oi{
+    font-size: 1.7rem;
+    margin-bottom: 15%;
+    margin-top: 3%;
+    
+}
+#Subtitulo{
+    text-align: center;
+    font-size: larger;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+#descrição{
+    text-align: center;
+}
+
+#fotoPessoal{
+    margin: 0 auto;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    height: 44%;
+    max-height: 30vh;
+    box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 5px #CFE8A9;
+}
+
+/*========== TRABALHOS ==========*/ 
+
+#tituloTrabalho{
+    border-style: solid;
+    text-align: center;
+    padding: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
+    box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 2.9%;
+    margin-right: 2.9%;
+}
+
+#imagemTrabalhos{
+    width: 100%;
+}
+
+
+#Item{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+#Item:hover{
+    background-color:  #dd6c6c;
+    box-shadow: 5px 5px #CFE8A9;
+}
+
+
+/*========== EXPERIENCIAS ==========*/ 
+
+#curiosidades{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 8%;
+}
+
+
+#linhaCuriosidade{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+    height: 33%;
+    border-style: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#textoCuriosidade{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+#imagemCuriosidade{
+    width: 80%;
+}
+
+#tituloExp{
+    border-style: solid;
+    text-align: center;
+    padding: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: -60px -60px #E64848, 60px 60px #CFE8A9;
+    box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+}
+
+#OutrasExp{
+    font-size: 1.5rem;
+}
