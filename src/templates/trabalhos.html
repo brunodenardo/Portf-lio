@@ -1,81 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhos</title>
-    <link rel="stylesheet" href="../static/styles/style.css">
-</head>
+{% extends "base.html" %}
+
 <body>
-    <header class="fixa">
-        <div>
-            <a href="home.html"><img class="logo" src="../static/public/placeholderLogo.png" alt="Placeholder"></a>
-        </div>
-        <ul>
-            <a href="home.html">Sobre</a>
-            <a href="trabalhos.html">Trabalhos</a>
-            <a href="curiosidades.html">Outras Experiências</a>
-        </ul>
-    </header>
+    {% block conteudo %}
+    
     <div id="tituloExperiencias">
         <h1>Trabalhos</h1>
     </div>
     <div id="conteudo">
         <div id="Item">
-            <a id="link" href="home.html">
+            <a id="link" href="/">
                 <img id="imagemTrabalhos" src="../static/public/placeholderImagem.png" alt="placeholderImagem">
                 <h3>Trabalho 1</h3>
-                <p>
+                <p id="trabTexto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fuga animi dolorum facilis, natus atque reprehenderit labore deleniti nobis laborum voluptate dolores incidunt, quisquam accusantium voluptatibus ipsam tenetur ea non!
                 </p>
             </a>
         </div>
         <div id="Item">
-            <a href="home.html">
+            <a id="link" href="/">
                 <img id="imagemTrabalhos" src="../static/public/placeholderImagem.png" alt="placeholderImagem">
                 <h3>Trabalho 2</h3>
-                <p>
+                <p id="trabTexto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fuga animi dolorum facilis, natus atque reprehenderit labore deleniti nobis laborum voluptate dolores incidunt, quisquam accusantium voluptatibus ipsam tenetur ea non!
                 </p>
             </a>
         </div>
         <div id="Item">
-            <a href="home.html">
+            <a id="link" href="/">
                 <img id="imagemTrabalhos" src="../static/public/placeholderImagem.png" alt="placeholderImagem">
                 <h3>Trabalho 3</h3>
-                <p>
+                <p id="trabTexto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fuga animi dolorum facilis, natus atque reprehenderit labore deleniti nobis laborum voluptate dolores incidunt, quisquam accusantium voluptatibus ipsam tenetur ea non!
                 </p>
             </a>
         </div>
         <div id="Item">
-            <a href="home.html">
+            <a id="link" href="/">
                 <img id="imagemTrabalhos" src="../static/public/placeholderImagem.png" alt="placeholderImagem">
                 <h3>Trabalho 4</h3>
-                <p>
+                <p id="trabTexto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fuga animi dolorum facilis, natus atque reprehenderit labore deleniti nobis laborum voluptate dolores incidunt, quisquam accusantium voluptatibus ipsam tenetur ea non!
                 </p>
             </a>
         </div>
         <div id="Item">
-            <a href="home.html">
+            <a id="link" href="/">
                 <img id="imagemTrabalhos" src="../static/public/placeholderImagem.png" alt="placeholderImagem">
                 <h3>Trabalho 5</h3>
-                <p>
+                <p id="trabTexto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fuga animi dolorum facilis, natus atque reprehenderit labore deleniti nobis laborum voluptate dolores incidunt, quisquam accusantium voluptatibus ipsam tenetur ea non!
                 </p>
             </a>
         </div>
         <div id="Item">
-            <a href="home.html">
+            <a id="link" href="/">
                 <img id="imagemTrabalhos" src="../static/public/placeholderImagem.png" alt="placeholderImagem">
                 <h3>Trabalho 6</h3>
-                <p>
+                <p id="trabTexto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fuga animi dolorum facilis, natus atque reprehenderit labore deleniti nobis laborum voluptate dolores incidunt, quisquam accusantium voluptatibus ipsam tenetur ea non!
                 </p>
             </a>
         </div>
     </div>
+    {% endblock %}
 </body>
 </html>

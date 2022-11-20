@@ -4,9 +4,14 @@ p, h1, a, img{
     text-decoration: none;
     color: black;
 }
+#link{
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+}
 
 body {
-     background-color: #FFFDE3;
+     background-color: #fffcd4;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -20,6 +25,27 @@ header{
     
 
 }
+
+#links-navbar{
+    margin: 10px;
+}
+
+
+.container{
+    padding: 70px 0px;
+}
+
+#navbar{
+    background-color: #CFE8A9;
+    margin-bottom: 5%;
+}
+
+#navbar-icon{
+    background-color: transparent;
+    width: max-content;
+    
+}
+
 
 .logo{
     max-width: 150px;
@@ -43,11 +69,14 @@ ul > a {
 /*========== APRESENTAÇÂO ==========*/
 
 div.apresentacao{
+
+    margin-bottom: 5vh;
     display: flex;
     border-style: solid;
     height: 80vh;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
 
 
@@ -72,6 +101,7 @@ div.apresentacao{
 }
 
 #fotoPessoal{
+    filter: sepia(10%);
     margin-right: 5%;
     border-radius: 50%;
     height: 70%;
@@ -119,13 +149,19 @@ div.apresentacao{
     margin-top: 5%;
 }
 
+#h1Curiosidade{
+    font-size: 1.8rem;
+}
+#pCuriosidade{
+    font-size: 1.3rem;
+}
 
 #linhaCuriosidade{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 20px;
+    padding: 15px;
     height: 33%;
     border-style: solid;
 }
@@ -149,4 +185,419 @@ div.apresentacao{
     text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
     box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 10px #CFE8A9;
 }
+#trabTexto{
+    font-size: 1rem;
+}
 
+/*========================================================== QUERY - RESPONSIVIDADE ==========================================================*/
+
+
+@media screen and (max-width: 1500px){
+        /*========== APRESENTAÇÂO 1500px ==========*/
+    div.apresentacao{
+
+        margin-bottom: 5vh;
+        padding: 5%;
+        display: flex;
+        border-style: solid;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap:2%
+    }
+    #Oi{
+        font-size: 2.5rem;
+        margin-top: 3%;
+        text-align: center;
+        
+    }
+    #Subtitulo{
+        text-align: center;
+        font-size: larger;
+        font-size:2.1rem;
+        margin-bottom: 5;
+    }
+    
+    #descrição{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    #fotoPessoal{
+        filter: sepia(10%);
+        margin: 0 auto;
+        margin-bottom: 10%;
+        border-radius: 70%;
+        max-height: 38vh;
+        box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 5px #CFE8A9;
+    }
+    #trabTexto{
+        font-size: 1rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    /*========== APRESENTAÇÂO 900 ==========*/
+    
+    div.apresentacao{
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        height: 70vh;
+        width: 80vw;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+    }
+
+    #Oi{
+        font-size: 2rem;
+        margin-top: 3%;
+        text-align: center;
+    }
+    #Subtitulo{
+        text-align: center;
+        font-size: larger;
+        font-size: 1.5rem;
+        margin-bottom: 5;
+    }
+    
+    #descrição{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    #fotoPessoal{
+        filter: sepia(10%);
+        margin: 0 auto;
+        margin-bottom: 5%;
+        border-radius: 60%;
+        max-height: 25vh;
+        box-shadow: -15px -15px 0px 10px #E64848, 15px 15px 0px 5px #CFE8A9;
+    }
+
+
+    /* EXPERIENCIAS 900px */
+
+    #tituloExperiencias{
+        border-style: solid;
+        text-align: center;
+        padding: 20%;
+        margin: 0 auto;
+    
+        text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
+        box-shadow: -15px -15px 0px 2px #E64848, 15px 15px 0px 2px #CFE8A9;
+    }
+    #linhaCuriosidade{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 5%;
+        height: 33%;
+
+        border-style: solid;
+
+    }
+    
+    #imagemCuriosidade{
+        width: 60%;
+    }
+    #textoCuriosidade{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    
+    #curiosidades{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 8%;
+    }
+    #h1Curiosidade{
+        font-size: 1.2rem;
+    }
+    #pCuriosidade{
+        font-size: 1rem;
+    }
+
+    /* TRABALHOS 900 */
+
+    #tituloTrabalho{
+        border-style: solid;
+        text-align: center;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
+        box-shadow: -20px -20px 0px 5px #E64848, 20px 20px 0px 5px #CFE8A9;
+    }
+
+    #conteudo{
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        
+        gap: 20px;
+        flex-wrap: wrap;
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+    
+    #Item{
+
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #trabTexto{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    p, h1, a, img, ul{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    body {
+        background-color: #fffcd4;
+        
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    /*========== HEADER 600 ==========*/
+    header{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        gap: 10px;
+    
+    }
+    
+    .logo{
+        max-width: 150px;
+        height: 40%;
+        margin-top: 10%;
+    }
+    
+    header > ul{
+        display: flex;
+    
+    }
+    
+    ul > a {
+        display: block;
+        align-items: center;
+        padding: 5px;
+        margin-left: 5px;
+        font-family: 'Segoe UI';
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+        background-color: #dd6c6c;
+        margin-bottom: 10%;
+    }
+    
+    /*========== APRESENTAÇÂO 600 ==========*/
+    
+    div.apresentacao{
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        height: 70vh;
+        width: 80vw;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+
+    
+    #Oi{
+        font-size: 1.5rem;
+        margin-top: 3%;
+        text-align: center;
+    }
+    #Subtitulo{
+        text-align: center;
+        font-size: larger;
+        font-size: 1.3rem;
+        margin-bottom: 5;
+    }
+    
+    #descrição{
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    #fotoPessoal{
+        filter: sepia(10%);
+        margin: 0 auto;
+        margin-bottom: 10%;
+        border-radius: 60%;
+        max-height: 25vh;
+        box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 5px #CFE8A9;
+    }
+    
+    /*========== TRABALHOS 600 ==========*/ 
+    
+    #tituloTrabalho{
+        border-style: solid;
+        text-align: center;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
+        box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+    }
+    
+    #conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        margin-top: 1%;
+        margin-bottom: 5%;
+
+    }
+    
+    #imagemTrabalhos{
+        width: 100%;
+    }
+    
+    
+    #Item{
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #Item:hover{
+        background-color:  #dd6c6c;
+        box-shadow: 5px 5px #CFE8A9;
+    }
+    #trabTexto{
+        font-size: 1rem;
+    }
+    
+    /*========== EXPERIENCIAS 600 ==========*/ 
+    
+    #curiosidades{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 8%;
+    }
+    
+    
+    #linhaCuriosidade{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 5%;
+        height: 33%;
+        border-style: solid;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #textoCuriosidade{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    #h1Curiosidade{
+        font-size: 1.5rem;
+    }
+    #pCuriosidade{
+        font-size: 1rem;
+    }
+    #imagemCuriosidade{
+        width: 80%;
+    }
+    
+    #tituloExp{
+        
+        border-style: solid;
+        text-align: center;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-shadow: -20px -20px #E64848, 20px 20px #CFE8A9;
+        box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+    }
+    
+    #OutrasExp{
+        font-size: 1.7rem;
+    }
+
+    #tituloExperiencias{
+        border-style: solid;
+        text-align: center;
+
+        padding: 15%;
+        margin: 0 auto;
+        width: 85vw;
+        text-shadow: -30px -30px #E64848, 30px 30px #CFE8A9;
+        box-shadow: -5px -5px 0px 2px #E64848, 5px 5px 0px 2px #CFE8A9;
+    }
+
+
+  }
+
+  @media screen and (max-width: 300) {
+    #fotoPessoal{
+        filter: sepia(10%);
+        margin: 0 auto;
+        margin-bottom: 10%;
+        border-radius: 60%;
+        max-height: 20vh;
+        box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+    }
+    #OutrasExp{
+        font-size: 1.0rem;
+    }
+    #h1Curiosidade{
+        font-size: 0.7rem;
+    }
+    #pCuriosidade{
+        font-size: 0.5rem;
+    }
+  }
