@@ -6,12 +6,18 @@ Realizado para a disciplina de Design Digital FATEC São José dos Campos
 ## Como executar a aplicação
 * Tenha o Python. <br>
 * Clone o repositório. <br>
+* Abra a pasta Portfolio <br>
 * No terminal:
 ```powershell
-# Acesse a página do projeto
-cd projeto
+#Crie um ambiente virtual
+python -m venv venv
 
-# Instale o flask
+#Ative o ambiente virtual:
+./venv/Scripts/activate
+
+#Instale o Flask:
 pip install flask
+
+#Execute o programa (na pasta src/)
+python app.py
 ``` 
-* Execute o programa
