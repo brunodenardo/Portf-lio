@@ -36,7 +36,7 @@ header{
 }
 
 #navbar{
-    background-color: #CFE8A9;
+    background-color: #b6e56f;
     margin-bottom: 5%;
 }
 
@@ -105,7 +105,7 @@ div.apresentacao{
     margin-right: 5%;
     border-radius: 50%;
     height: 70%;
-    box-shadow: -48px -48px 0px 20px #E64848, 48px 48px 0px 10px #CFE8A9;
+    box-shadow: -48px -48px 0px 20px #e73d3d, 48px 48px 0px 10px #b6e56f;
 }
 
 /*========== TRABALHOS ==========*/ 
@@ -136,8 +136,8 @@ div.apresentacao{
 }
 
 #Item:hover{
-    background-color:  #dd6c6c;
-    box-shadow: 5px 5px #CFE8A9;
+    background-color:  #e36b6b;
+    box-shadow: 5px 5px #b6e56f;
 }
 
 
@@ -183,8 +183,8 @@ div.apresentacao{
     text-align: center;
     padding: 20%;
     margin-top: 5%;
-    text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
-    box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 10px #CFE8A9;
+    text-shadow: -40px -40px #e73d3d, 40px 40px #b6e56f;
+    box-shadow: -20px -20px 0px 10px #e73d3d, 20px 20px 0px 10px #b6e56f;
 }
 #trabTexto{
     font-size: 1rem;
@@ -231,7 +231,7 @@ div.apresentacao{
         margin-bottom: 10%;
         border-radius: 70%;
         max-height: 38vh;
-        box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 5px #CFE8A9;
+        box-shadow: -20px -20px 0px 10px #e73d3d, 20px 20px 0px 5px #b6e56f;
     }
     #trabTexto{
         font-size: 1rem;
@@ -279,7 +279,7 @@ div.apresentacao{
         margin-bottom: 5%;
         border-radius: 60%;
         max-height: 25vh;
-        box-shadow: -15px -15px 0px 10px #E64848, 15px 15px 0px 5px #CFE8A9;
+        box-shadow: -15px -15px 0px 10px #e73d3d, 15px 15px 0px 5px #b6e56f;
     }
 
 
@@ -291,8 +291,8 @@ div.apresentacao{
         padding: 20%;
         margin: 0 auto;
     
-        text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
-        box-shadow: -15px -15px 0px 2px #E64848, 15px 15px 0px 2px #CFE8A9;
+        text-shadow: -40px -40px #e73d3d, 40px 40px #b6e56f;
+        box-shadow: -15px -15px 0px 2px #e73d3d, 15px 15px 0px 2px #b6e56f;
     }
     #linhaCuriosidade{
         display: flex;
@@ -340,8 +340,8 @@ div.apresentacao{
         padding: 20%;
         margin-left: 5%;
         margin-right: 5%;
-        text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
-        box-shadow: -20px -20px 0px 5px #E64848, 20px 20px 0px 5px #CFE8A9;
+        text-shadow: -40px -40px #e73d3d, 40px 40px #b6e56f;
+        box-shadow: -20px -20px 0px 5px #e73d3d, 20px 20px 0px 5px #b6e56f;
     }
 
     #conteudo{
@@ -418,7 +418,7 @@ div.apresentacao{
         text-decoration: none;
         font-size: 1em;
         color: black;
-        background-color: #dd6c6c;
+        background-color: #e73d3d;
         margin-bottom: 10%;
     }
     
@@ -461,7 +461,7 @@ div.apresentacao{
         margin-bottom: 10%;
         border-radius: 60%;
         max-height: 25vh;
-        box-shadow: -20px -20px 0px 10px #E64848, 20px 20px 0px 5px #CFE8A9;
+        box-shadow: -20px -20px 0px 10px #e73d3d, 20px 20px 0px 5px #b6e56f;
     }
     
     /*========== TRABALHOS 600 ==========*/ 
@@ -472,8 +472,8 @@ div.apresentacao{
         padding: 20%;
         margin-left: 5%;
         margin-right: 5%;
-        text-shadow: -40px -40px #E64848, 40px 40px #CFE8A9;
-        box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+        text-shadow: -40px -40px #e73d3d, 40px 40px #b6e56f;
+        box-shadow: -10px -10px 0px 5px #e73d3d, 10px 10px 0px 5px #b6e56f;
     }
     
     #conteudo{
@@ -505,8 +505,8 @@ div.apresentacao{
     }
     
     #Item:hover{
-        background-color:  #dd6c6c;
-        box-shadow: 5px 5px #CFE8A9;
+        background-color:  #e36b6b;
+        box-shadow: 5px 5px #b6e56f;
     }
     #trabTexto{
         font-size: 1rem;
@@ -560,8 +560,8 @@ div.apresentacao{
         padding: 20%;
         margin-left: 5%;
         margin-right: 5%;
-        text-shadow: -20px -20px #E64848, 20px 20px #CFE8A9;
-        box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+        text-shadow: -20px -20px #e73d3d, 20px 20px #b6e56f;
+        box-shadow: -10px -10px 0px 5px #e73d3d, 10px 10px 0px 5px #b6e56f;
     }
     
     #OutrasExp{
@@ -575,8 +575,8 @@ div.apresentacao{
         padding: 15%;
         margin: 0 auto;
         width: 85vw;
-        text-shadow: -30px -30px #E64848, 30px 30px #CFE8A9;
-        box-shadow: -5px -5px 0px 2px #E64848, 5px 5px 0px 2px #CFE8A9;
+        text-shadow: -30px -30px #e73d3d, 30px 30px #b6e56f;
+        box-shadow: -5px -5px 0px 2px #e73d3d, 5px 5px 0px 2px #b6e56f;
     }
 
 
@@ -589,7 +589,7 @@ div.apresentacao{
         margin-bottom: 10%;
         border-radius: 60%;
         max-height: 20vh;
-        box-shadow: -10px -10px 0px 5px #E64848, 10px 10px 0px 5px #CFE8A9;
+        box-shadow: -10px -10px 0px 5px #e73d3d, 10px 10px 0px 5px #b6e56f;
     }
     #OutrasExp{
         font-size: 1.0rem;
