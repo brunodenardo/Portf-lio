@@ -113,8 +113,9 @@ div.apresentacao{
 #conteudo{
     display: flex;
     justify-content: space-around;
-    border-style: solid;
-    gap: 50px 20px;
+    align-items: center;
+    border: solid;
+    gap:20px;
     flex-wrap: wrap;
     padding: 20px;
     margin-top: 5%;
@@ -129,7 +130,7 @@ div.apresentacao{
 #Item{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     text-align: center;
     padding: 10px;
 }
@@ -345,23 +346,22 @@ div.apresentacao{
 
     #conteudo{
         display: flex;
-    
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        
+        border: none;
         gap: 20px;
-        flex-wrap: wrap;
-
+        padding: 0%;
         margin-top: 5%;
         margin-bottom: 5%;
 
     }
     
     #Item{
-
+        border: solid;
         display: flex;
         flex-direction: column;
-        width: 30vw;
+        width: 100%;
         text-align: center;
         padding: 20px;
     }
@@ -485,7 +485,7 @@ div.apresentacao{
         gap: 20px;
         flex-wrap: wrap;
 
-        margin-top: 1%;
+        margin-top: 5%;
         margin-bottom: 5%;
 
     }
