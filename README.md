@@ -13,7 +13,7 @@ Realizado para a disciplina de Design Digital FATEC São José dos Campos
 python -m venv venv
 
 #Ative o ambiente virtual:
-./venv/Scripts/activate
+venv/Scripts/activate
 
 #Instale o Flask:
 pip install flask
