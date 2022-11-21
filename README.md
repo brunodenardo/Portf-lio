@@ -1,5 +1,5 @@
-# Projeto de Portifólio
-* Realizado para a disciplina de Design Digital FATEC São José dos Campos  
+# Projeto de Portfólio
+Realizado para a disciplina de Design Digital FATEC São José dos Campos  
 
 <hr>
 
